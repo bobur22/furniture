@@ -1,0 +1,58 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Untree.co">
+    <link rel="shortcut icon" href="{% static 'main/images/logo/favicon.png' %}">
+
+    <meta name="description" content=""/>
+    <meta name="keywords" content="bootstrap, bootstrap4"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="{% static 'main/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="{% static 'main/css/tiny-slider.css' %}" rel="stylesheet">
+    <link href="{% static 'main/css/style.css' %}" rel="stylesheet">
+    <title>Furni Free Bootstrap 5 Template for Furniture and Interior Design Websites by Untree.co </title>
+</head>
+
+<body>
+
+<!-- Start Header/Navigation -->
+{% include "layouts/navbar.html" %}
+<!-- End Header/Navigation -->
+
+<!-- Start Hero Section -->
+
+{% block hero %}
+
+{% endblock hero %}
+
+<!-- End Hero Section -->
+
+
+<!-- Start body section -->
+
+{% block content %}
+
+{% endblock content %}
+
+<!-- End body section -->
+
+
+<!-- Start Footer Section -->
+
+{% include "layouts/footer.html" %}
+
+<!-- End Footer Section -->
+
+
+<script src="{% static 'main/js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'main/js/tiny-slider.js' %}"></script>
+<script src="{% static 'main/js/custom.js' %}"></script>
+</body>
+
+</html>
